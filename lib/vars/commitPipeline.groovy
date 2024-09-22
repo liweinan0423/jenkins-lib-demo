@@ -6,7 +6,7 @@ def call() {
 		agent any
 		node {
 			stage "hello" {
-				example1.call();
+				example1.run();
 			}
 		}
 	}
