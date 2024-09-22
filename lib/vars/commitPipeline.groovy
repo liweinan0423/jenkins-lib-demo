@@ -1,13 +1,11 @@
+import jobs.*
+
+example1 = new Example1();
 def call() {
 	pipeline {
-		agent any
 		node {
 			stage "hello" {
-				script {
-				sh """
-					echo "Hello"
-				"""
-				}
+				example1();
 			}
 		}
 	}
