@@ -4,7 +4,7 @@ example1 = new Example1();
 def call() {
 	pipeline {
 		node {
-			stage "hello" {
+			stage("hello") {
 				example1();
 			}
 		}
