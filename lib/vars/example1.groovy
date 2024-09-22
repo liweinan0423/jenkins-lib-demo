@@ -1,5 +1,3 @@
-package jobs;
-
 def call(String name = "Alice") {
 	script {
 		sh """
