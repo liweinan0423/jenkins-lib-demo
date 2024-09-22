@@ -1,3 +1,5 @@
+package pipelines;
+
 def call() {
 	pipeline {
 		node {
