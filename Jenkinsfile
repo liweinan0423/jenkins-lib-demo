@@ -1,4 +1,4 @@
 @Library("jenkins-lib-demo")
-import commitPipeline; 
+import pipelines.commitPipeline; 
 
 commitPipeline()
