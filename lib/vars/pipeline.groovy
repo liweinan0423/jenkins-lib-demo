@@ -17,4 +17,5 @@ def call() {
     }))
 
     pipeline.execute()
+	return 1
 }
