@@ -1,7 +1,8 @@
 import jobs.Example1;
 
-example1 = new Example1();
+
 def call() {
+	example1 = new Example1();
 	pipeline {
 		agent any
 		node {
