@@ -1,4 +1,4 @@
-@Library("jenkins-shared-library-examples")
+example1 = library("jenkins-shared-library-examples").example1
 pipeline {
 	node {
 		stage("hello world") {
