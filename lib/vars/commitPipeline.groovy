@@ -1,11 +1,11 @@
 import jobs.*
 
-example1 = new Example1();
 def call() {
+	example1 = new Example1();
 	pipeline {
 		node {
 			stage("hello") {
-				example1();
+				example1.run();
 			}
 		}
 	}
