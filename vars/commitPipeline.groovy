@@ -2,7 +2,7 @@ def call() {
 	pipeline {
 		node {
 			stage("hello") {
-				example1();
+				jobs.example1();
 			}
 		}
 	}
