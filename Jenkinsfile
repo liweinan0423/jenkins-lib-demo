@@ -1,3 +1,7 @@
 @Library('jenkins-lib-demo') _
 
-pipeline()
+script {
+    sh'''
+	echo hello
+	'''
+}
