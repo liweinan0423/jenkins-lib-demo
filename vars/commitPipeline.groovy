@@ -1,4 +1,5 @@
-def example1 = new com.mycompany.pipeline.Example1(this)		
+def call() {
+	def example1 = new com.mycompany.pipeline.Example1(this)
 
 	pipeline {
 		node {
@@ -7,3 +8,4 @@ def example1 = new com.mycompany.pipeline.Example1(this)
 			}
 		}
 	}
+}
