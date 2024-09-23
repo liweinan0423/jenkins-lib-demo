@@ -9,8 +9,10 @@ class Pipeline {
     }
 
     void execute() {
-        stages.each { stage ->
-            stage.execute()
+        stages.each { _stage ->
+            stage {
+                _stage.execute()
+            }
         }
     }
 
