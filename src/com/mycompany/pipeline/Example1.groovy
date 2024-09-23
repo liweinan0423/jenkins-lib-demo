@@ -6,7 +6,7 @@ class Example1 {
 		this.steps = steps
 	}
 
-	void execute() {
+	void call() {
 		steps.script {
 			steps.sh"""
 				echo Hello
