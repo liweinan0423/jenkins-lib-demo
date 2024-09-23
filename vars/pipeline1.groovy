@@ -1,10 +1,12 @@
 def call() {
     pipeline {
-        stage('hello') {
-            script {
-                sh'''
+        node {
+            stage('hello') {
+                script {
+                    sh'''
                 echo Hello
                 '''
+                }
             }
         }
     }
